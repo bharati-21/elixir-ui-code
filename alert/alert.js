@@ -1,4 +1,4 @@
-/* Get reference to the alert close buttons */
+/* Get reference to the alert close button */
 const closeIcon = document.querySelector('.alert .icon-close');
 
 /* Attaching event listener to listen for alert close icon click */
