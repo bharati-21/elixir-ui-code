@@ -1,8 +1,8 @@
-/* Get reference to all the close buttons */
-const closeIcons = document.querySelectorAll('.alert .icon-close');
+/* Get reference to the alert close buttons */
+const closeIcon = document.querySelector('.alert .icon-close');
 
-/* Attach listeners to all close buttons */
-closeIcons.forEach(closeIcon => closeIcon.addEventListener('click', closeAlert));
+/* Attaching event listener to listen for alert close icon click */
+closeIcon.addEventListener('click', closeAlert);
 
 /* handler called when the close button is clicked */
 function closeAlert(e) {
